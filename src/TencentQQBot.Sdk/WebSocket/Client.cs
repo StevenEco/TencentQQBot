@@ -1,4 +1,4 @@
-﻿namespace TencentQQBot.Sdk;
+﻿namespace TencentQQBot.Sdk.WebSocket;
 
 //    """``Client` 是一个用于与 QQ频道机器人 Websocket 和 API 交互的类。"""
 
@@ -28,29 +28,29 @@
 
 public enum LogConfigFileType
 {
-	xml,
-	json,
-	yaml,
-	ini
+    xml,
+    json,
+    yaml,
+    ini
 }
 public enum LogLevel
 {
-	None,
-	Info,
-	Warn,
-	Error
+    None,
+    Info,
+    Warn,
+    Error
 }
 public class Client
 {
-	public Client()
-	{
+    public Client()
+    {
 
-	}
-	//todo need add ext
-	public Client(int timeout,bool isSandBox,(string,LogConfigFileType) logConfigPath,LogLevel logLevel)
-	{
+    }
+    //todo need add ext
+    public Client(int timeout, bool isSandBox, (string, LogConfigFileType) logConfigPath, LogLevel logLevel)
+    {
 
-	}
+    }
 
 
 
