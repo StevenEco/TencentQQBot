@@ -1,7 +1,6 @@
 ﻿namespace TencentQQBot.Sdk
 {
-    public class Class1
+    internal class Logging
     {
-
     }
 }
