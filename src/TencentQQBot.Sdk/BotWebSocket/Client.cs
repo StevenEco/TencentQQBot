@@ -1,4 +1,6 @@
-﻿namespace TencentQQBot.Sdk.WebSocket;
+﻿using Microsoft.AspNetCore.SignalR.Client;
+
+namespace TencentQQBot.Sdk.BotWebSocket;
 
 //    """``Client` 是一个用于与 QQ频道机器人 Websocket 和 API 交互的类。"""
 
@@ -49,7 +51,7 @@ public class Client
     //todo need add ext
     public Client(int timeout, bool isSandBox, (string, LogConfigFileType) logConfigPath, LogLevel logLevel)
     {
-
+        
     }
 
 
