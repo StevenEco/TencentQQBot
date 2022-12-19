@@ -4,7 +4,7 @@ namespace TencentQQBot.Sdk.Domain;
 /// <summary>
 /// 用户对象(User) 用户对象中所涉及的 ID 类数据，都仅在机器人场景流通，与真实的 ID 无关，请不要理解为真实的 ID。
 /// </summary>
-public class Bot_User
+public class BotUser
 {
     /// <summary>
     /// 用户Id
