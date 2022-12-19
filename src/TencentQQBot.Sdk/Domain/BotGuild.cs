@@ -52,10 +52,5 @@ public class BotGuild
     /// </summary>
     [JsonPropertyName("joined_at"), JsonConverter(typeof(DateTimeToStringTimestamp))]
     public DateTime JoinedAt { get; set; }
-    /// <summary>
-    /// 机器人在本频道内拥有的权限的列表
-    /// </summary>
-    [JsonIgnore]
-    public List<APIPermission>? APIPermissions { get; set; }
 }
 
