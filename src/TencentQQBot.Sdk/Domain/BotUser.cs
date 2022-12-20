@@ -27,12 +27,12 @@ public class BotUser
     [JsonPropertyName("bot")]
     public bool Bot { get; set; }
     /// <summary>
-    /// 特殊关联应用的 openid，需要特殊申请并配置后才会返回。如需申请，请联系平台运营人员。
+    /// 特殊关联应用的 openid，需要特殊申请并配置后才会返回。如需申请，请联系平台运营人员。只有在单独拉取 member 信息的时候才会提供
     /// </summary>
     [JsonPropertyName("union_openid")]
     public string? UnionOpenid { get; set; }
     /// <summary>
-    /// 机器人关联的互联应用的用户信息，与 union_openid 关联的应用是同一个。如需申请，请联系平台运营人员。
+    /// 机器人关联的互联应用的用户信息，与 union_openid 关联的应用是同一个。如需申请，请联系平台运营人员。只有在单独拉取 member 信息的时候才会提供
     /// </summary>
     [JsonPropertyName("union_user_account")]
     public string? UnionUserAccount { get; set; }
